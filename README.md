@@ -15,6 +15,11 @@ go run ./cmd/web
 go run ./cmd/web -addr=":9999"
 ```
 
+## how to test
+```
+go test ./cmd/web
+```
+
 ## how to create volume for mysql container
 ```
 docker volume create --name=mysqldata
