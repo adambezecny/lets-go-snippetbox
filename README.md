@@ -17,7 +17,7 @@ go run ./cmd/web -addr=":9999"
 
 ## how to test
 ```
-go test ./cmd/web
+go test -v ./cmd/web
 ```
 
 ## how to create volume for mysql container
