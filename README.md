@@ -19,6 +19,10 @@ go run ./cmd/web -addr=":9999"
 ```
 go test -v ./cmd/web
 ```
+or to run tests in all sub directories of current directory (including internal directory):
+```
+go test -v ./...
+```
 
 ## how to create volume for mysql container
 ```
